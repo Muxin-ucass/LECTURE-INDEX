@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="中国社会科学院大学良乡校区讲座、学术沙龙、工作坊与论坛信息聚合。数据来自学校官网、各学院网站及公众号转载。">
+  <title>社科大讲座汇 · 良乡校区学术活动聚合</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/list" aria-label="返回活动索引">
+        <span class="brand-seal" aria-hidden="true">讲</span>
+        <span class="brand-text">
+          <strong>社科大讲座汇</strong>
+          <small>UCASS LECTURE INDEX</small>
+        </span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="主导航">
+        <a href="#/list" data-nav="list" class="active">活动索引</a>
+        <a href="#/calendar" data-nav="calendar">学术日历</a>
+        <a href="#/sources" data-nav="sources">来源矩阵</a>
+        <a href="#/about" data-nav="about">采集说明</a>
+      </nav>
+      <div class="header-meta">
+        <span class="pulse" aria-hidden="true"></span>
+        <span>更新于 <time id="headerUpdated">—</time></span>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="打开导航" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ 活动索引 ============ -->
+    <section class="page" id="page-list">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">中国社会科学院大学 · 良乡校区</p>
+          <h1>让每一场讲座，<br><em>都不被错过。</em></h1>
+          <p class="lede">把散落在学校官网、各学院网站与公众号里的讲座、学术沙龙、工作坊，收进同一张学术日历。按主题、时间和校区检索，找到下一场值得去的学术现场。</p>
+
+          <div class="search-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M16.5 16.5 21 21"></path></svg>
+            <input id="heroSearch" type="search" placeholder="搜索讲题、主讲人、关键词，如“人工智能”“社会学”" autocomplete="off" aria-label="搜索讲座">
+            <kbd>⌘ K</kbd>
+          </div>
+
+          <div class="quick-chips" id="quickChips" aria-label="快捷筛选">
+            <button class="quick-chip" data-quick="liangxiang">良乡校区</button>
+            <button class="quick-chip" data-quick="week">本周</button>
+            <button class="quick-chip" data-quick="salon">学术沙龙</button>
+            <button class="quick-chip" data-quick="ai">人工智能</button>
+            <button class="quick-chip" data-quick="online">线上</button>
+          </div>
+
+          <p class="data-note" id="heroNote">正在载入数据…</p>
+        </div>
+
+        <aside class="hero-aside" aria-label="近期讲座与数据概览">
+          <div class="next-card" id="nextEvent">
+            <div class="next-skeleton">正在读取最近一场活动…</div>
+          </div>
+          <div class="stat-grid">
+            <div class="stat">
+              <span class="stat-value" data-stat="total">—</span>
+              <span class="stat-label">收录活动</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value" data-stat="liangxiang">—</span>
+              <span class="stat-label">良乡场次</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value" data-stat="upcoming">—</span>
+              <span class="stat-label">即将开始</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value" data-stat="sources">—</span>
+              <span class="stat-label">覆盖单位</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="container index-section">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Index / 索引</p>
+            <h2>活动索引</h2>
+          </div>
+          <div class="view-switch" role="group" aria-label="视图切换">
+            <button class="view-btn active" data-view="list" type="button">列表</button>
+            <button class="view-btn" data-view="calendar" type="button">日历</button>
+          </div>
+        </div>
+
+        <div class="filter-panel" id="filterPanel">
+          <div class="filter-search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M16.5 16.5 21 21"></path></svg>
+            <input id="filterSearch" type="search" placeholder="在结果中搜索…" autocomplete="off" aria-label="在结果中搜索">
+            <button class="filter-reset" id="resetFilters" type="button">重置</button>
+          </div>
+
+          <div class="filter-row">
+            <span class="filter-label">校区</span>
+            <div class="chip-group" id="campusFilter"></div>
+          </div>
+
+          <div class="filter-row">
+            <span class="filter-label">类型</span>
+            <div class="select-wrap">
+              <select id="typeFilter" aria-label="按活动类型筛选"></select>
+            </div>
+            <span class="filter-label filter-label-inline">主办</span>
+            <div class="select-wrap">
+              <select id="orgFilter" aria-label="按主办单位筛选"></select>
+            </div>
+            <span class="filter-label filter-label-inline">时间</span>
+            <div class="chip-group" id="periodFilter"></div>
+            <span class="filter-label filter-label-inline">排序</span>
+            <div class="select-wrap">
+              <select id="sortFilter" aria-label="排序方式">
+                <option value="default">即将开始优先</option>
+                <option value="date-asc">日期由近到远</option>
+                <option value="date-desc">日期由远到近</option>
+                <option value="published">最新发布</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="active-filters" id="activeFilters" hidden></div>
+        </div>
+
+        <div class="results-head" aria-live="polite">
+          <p id="resultsSummary">—</p>
+          <p class="results-hint">点击卡片查看详情与原文链接</p>
+        </div>
+
+        <div id="listResults"></div>
+        <div class="load-more-wrap" id="loadMoreWrap" hidden>
+          <button class="btn-ghost" id="loadMore" type="button">加载更多往期活动</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 学术日历 ============ -->
+    <section class="page" id="page-calendar" hidden>
+      <div class="container page-head">
+        <p class="section-kicker">Calendar / 日历</p>
+        <h1 class="page-title">学术日历</h1>
+        <p class="page-lede">以月为单位浏览讲座与沙龙。点击日期，回到索引查看当天的全部活动。</p>
+      </div>
+      <div class="container calendar-layout">
+        <div class="calendar-shell">
+          <div class="cal-toolbar">
+            <div class="cal-title">
+              <button class="cal-nav" id="calPrev" type="button" aria-label="上个月">←</button>
+              <h2 id="calMonthTitle">—</h2>
+              <button class="cal-nav" id="calNext" type="button" aria-label="下个月">→</button>
+            </div>
+            <div class="cal-actions">
+              <button class="btn-ghost btn-sm" id="calToday" type="button">回到本月</button>
+              <span class="cal-count" id="calCount">—</span>
+            </div>
+          </div>
+          <div class="cal-weekdays" aria-hidden="true">
+            <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
+          </div>
+          <div class="cal-grid" id="calGrid"></div>
+          <div class="cal-legend">
+            <span><i class="dot dot-lecture"></i>讲座</span>
+            <span><i class="dot dot-salon"></i>学术沙龙</span>
+            <span><i class="dot dot-workshop"></i>工作坊</span>
+            <span><i class="dot dot-forum"></i>论坛 / 研讨</span>
+            <span><i class="dot dot-online"></i>线上</span>
+          </div>
+        </div>
+
+        <aside class="cal-side">
+          <div class="side-card">
+            <p class="side-kicker">本月速览</p>
+            <div class="side-stats" id="calSideStats"></div>
+          </div>
+          <div class="side-card">
+            <p class="side-kicker">本月活动</p>
+            <div class="mini-list" id="calMiniList"></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ 来源矩阵 ============ -->
+    <section class="page" id="page-sources" hidden>
+      <div class="container page-head">
+        <p class="section-kicker">Sources / 来源</p>
+        <h1 class="page-title">来源矩阵</h1>
+        <p class="page-lede">目前接入学校官网、科研处与 14 个学院的公开栏目，并同步官网转载的公众号文章。公众号与抖音作为平台入口持续补充。</p>
+        <div class="source-summary" id="sourceSummary"></div>
+      </div>
+      <div class="container">
+        <div class="source-block-head">
+          <h2>官网栏目</h2>
+          <p>按“校级 / 学院”分组。条数为当前已收录的活动数量。</p>
+        </div>
+        <div id="sourceGroups"></div>
+
+        <div class="source-block-head accounts-head">
+          <h2>公众号与抖音</h2>
+          <p>平台内容受登录与反爬限制，不做全量抓取；官网已转载的文章会自动入库。以下为建议关注的官方入口。</p>
+        </div>
+        <div class="account-note">
+          <strong>采集边界</strong>
+          <span>微信公众号文章通过官网转载链接同步；抖音仅提供站内检索入口。点击账号名称可复制，便于在对应 App 内搜索。</span>
+        </div>
+        <div id="accountGroups"></div>
+      </div>
+    </section>
+
+    <!-- ============ 采集说明 ============ -->
+    <section class="page" id="page-about" hidden>
+      <div class="container page-head">
+        <p class="section-kicker">About / 说明</p>
+        <h1 class="page-title">采集说明</h1>
+        <p class="page-lede">一个面向社科大良乡校区的讲座信息索引实验：不生产信息，只把公开信息整理得更可检索。</p>
+      </div>
+
+      <div class="container about-layout">
+        <article class="about-main">
+          <h2>收录范围</h2>
+          <p>以中国社会科学院大学良乡校区为核心，收录讲座、学术沙龙、工作坊、论坛、研讨会、报告会、讲堂与读书会等公开学术活动。数据来自学校官网、科研处、各学院网站，以及官网转载的微信公众号文章。</p>
+
+          <h2>字段说明</h2>
+          <div class="field-table">
+            <div><span>活动日期</span><p>优先取原文“讲座时间 / 活动时间”标注；回顾稿从正文中提取。原文只写“某月某日”时按发布年份推断，跨年时做修正。</p></div>
+            <div><span>校区</span><p>依据地点文本判断“良乡校区 / 望京校区 / 线上 / 校外”；原文未写明校区时标记为“未注明”，不做猜测。</p></div>
+            <div><span>主讲人</span><p>优先取标题“讲座预告｜姓名：主题”，其次取正文“主讲人 / 主讲嘉宾”字段。</p></div>
+            <div><span>类型</span><p>依据标题与栏目关键词归类，如“沙龙”“工作坊”“论坛”“报告会”。</p></div>
+            <div><span>状态</span><p>“即将开始 / 今日 / 已结束”由本地日期实时计算，不写入数据。</p></div>
+          </div>
+
+          <h2>采集流程</h2>
+          <div class="pipeline">
+            <div class="pipe-step"><span>01</span><h3>栏目发现</h3><p>梳理学校与各学院官网的讲座、学术活动、通知公告栏目。</p></div>
+            <div class="pipe-step"><span>02</span><h3>列表抓取</h3><p>按分页抓取公开列表，保留标题、发布日期与原文链接。</p></div>
+            <div class="pipe-step"><span>03</span><h3>正文解析</h3><p>提取时间、地点、主讲人、主办单位，识别讲座 / 沙龙 / 工作坊等类型。</p></div>
+            <div class="pipe-step"><span>04</span><h3>去重合并</h3><p>同一活动在学院官网与公众号重复出现时，按标题与日期合并，保留更完整的字段。</p></div>
+          </div>
+
+          <h2>更新数据</h2>
+          <p>在项目根目录执行以下命令即可重新采集。脚本只访问公开页面，不登录、不绕过验证，并在请求间加入随机间隔。</p>
+          <pre class="code-block"><code>python crawler/crawl.py</code></pre>
+          <p class="muted">如需调试，可加 <code>--max-pages 1</code> 只抓每个栏目的第一页。</p>
+
+          <h2>已知边界</h2>
+          <ul class="about-list">
+            <li><strong>公众号与抖音：</strong>微信文章可通过官网转载链接读取；公众号历史消息与抖音视频需要登录，暂不做全量抓取。</li>
+            <li><strong>日期缺失：</strong>部分回顾稿只写“近日”“某日下午”，这类记录会标记“日期待定”。</li>
+            <li><strong>校区缺失：</strong>原文只写“教学楼 308”时无法可靠判断校区，统一标记“未注明”。</li>
+            <li><strong>重复与遗漏：</strong>跨来源合并采用标题相似匹配，仍可能有少量重复或遗漏；欢迎以原文为准。</li>
+          </ul>
+
+          <h2>使用与引用</h2>
+          <p>本站仅聚合公开信息，所有卡片均指向原文。引用活动信息时请以主办单位发布的原文为准；如来源方希望调整或删除收录，请联系维护者处理。</p>
+        </article>
+
+        <aside class="about-aside">
+          <div class="about-quote">
+            <p>“讲座信息不该散落在十几个网站的第五级栏目里。”</p>
+          </div>
+          <div class="about-stats">
+            <div><span data-stat="total">—</span><small>条活动</small></div>
+            <div><span data-stat="sources">—</span><small>个来源单位</small></div>
+            <div><span id="aboutAccounts">—</span><small>个平台入口</small></div>
+            <div><span id="aboutMonths">—</span><small>个月份跨度</small></div>
+          </div>
+          <div class="about-meta">
+            <p>数据生成时间</p>
+            <strong id="aboutGenerated">—</strong>
+            <p>采集脚本</p>
+            <strong>crawler/crawl.py</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-seal small" aria-hidden="true">讲</span>
+        <div>
+          <strong>社科大讲座汇</strong>
+          <p>中国社会科学院大学良乡校区学术活动聚合</p>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#/list">活动索引</a>
+        <a href="#/calendar">学术日历</a>
+        <a href="#/sources">来源矩阵</a>
+        <a href="#/about">采集说明</a>
+      </div>
+      <p class="footer-note">信息来自公开网页，版权归原作者与主办单位所有。最后更新：<time id="footerUpdated">—</time></p>
+    </div>
+  </footer>
+
+  <div class="drawer-overlay" id="drawerOverlay" hidden></div>
+  <aside class="drawer" id="detailDrawer" aria-hidden="true" aria-label="活动详情">
+    <div class="drawer-bar">
+      <span>Lecture detail</span>
+      <button class="drawer-close" id="drawerClose" type="button" aria-label="关闭详情">×</button>
+    </div>
+    <div class="drawer-content" id="drawerContent"></div>
+  </aside>
+
+  <script src="data/site_data.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

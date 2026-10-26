@@ -1,0 +1,116 @@
+openapi: 3.1.0
+info:
+  title: 社科大讲座汇 · 数据接口契约
+  version: "1.0"
+  description: >
+    当前以静态 JSON 文件交付（GET /data/lectures.json）。
+    后端化时按此契约实现等价端点即可，响应结构与字段一一对应。
+servers:
+  - url: https://example.ucass-lectures.cn
+paths:
+  /data/lectures.json:
+    get:
+      summary: 获取全量讲座聚合数据
+      description: 一次性返回站点所需的全部数据（元信息 + 活动列表 + 来源 + 平台账号）。
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Payload"
+components:
+  schemas:
+    Payload:
+      type: object
+      required: [meta, lectures, sources, accounts]
+      properties:
+        meta:
+          $ref: "#/components/schemas/Meta"
+        lectures:
+          type: array
+          items:
+            $ref: "#/components/schemas/Lecture"
+        sources:
+          type: array
+          items:
+            $ref: "#/components/schemas/Source"
+        accounts:
+          type: array
+          items:
+            $ref: "#/components/schemas/Account"
+    Meta:
+      type: object
+      properties:
+        generated_at: { type: string, examples: ["2026-10-26T19:48:13"] }
+        today: { type: string, examples: ["2026-10-26"] }
+        total: { type: integer }
+        upcoming: { type: integer }
+        liangxiang: { type: integer }
+        sources_count: { type: integer }
+        accounts_count: { type: integer }
+        campus_counts: { type: object, additionalProperties: { type: integer } }
+        type_counts: { type: object, additionalProperties: { type: integer } }
+    Lecture:
+      type: object
+      required: [id, title, url, source_id, source_name, campus, type]
+      properties:
+        id: { type: string, description: 内容指纹（去重主键） }
+        title: { type: string }
+        url: { type: string, format: uri, description: 原文链接 }
+        source_id: { type: string, examples: ["sg"] }
+        source_name: { type: string, examples: ["政府管理学院"] }
+        org: { type: string }
+        section: { type: string, description: 来源栏目名 }
+        published: { type: string, description: 原文发布日期 YYYY-MM-DD，可空 }
+        event_date: { type: string, description: 活动日期 YYYY-MM-DD，可空=日期待定 }
+        time_text: { type: string, examples: ["18:10"] }
+        location: { type: string }
+        campus:
+          type: string
+          enum: [良乡校区, 望京校区, 线上, 校外, 未注明]
+        speaker: { type: string, description: 主讲人，可空 }
+        organizer: { type: string }
+        type:
+          type: string
+          enum: [讲座, 学术沙龙, 工作坊, 论坛, 研讨会, 报告会, 讲堂, 读书会]
+        tags: { type: array, items: { type: string } }
+        summary: { type: string }
+        excerpt: { type: string }
+        content_kind:
+          type: string
+          enum: [preview, review, info]
+        account: { type: string, description: 微信公众号文章的账号名 }
+        is_wechat: { type: boolean }
+        fetched_at: { type: string }
+        also_urls: { type: array, items: { type: string }, description: 合并掉的重复来源链接 }
+    Source:
+      type: object
+      properties:
+        id: { type: string }
+        name: { type: string }
+        short: { type: string }
+        org: { type: string }
+        category: { type: string, enum: [校级, 学院] }
+        homepage: { type: string, format: uri }
+        count: { type: integer, description: 已收录活动数 }
+        listings:
+          type: array
+          items:
+            type: object
+            properties:
+              url: { type: string, format: uri }
+              section: { type: string }
+              mode: { type: string, enum: [all, filter] }
+              pages: { type: integer }
+              items: { type: integer }
+              kept: { type: integer }
+    Account:
+      type: object
+      properties:
+        platform: { type: string, enum: [微信公众号, 抖音] }
+        name: { type: string }
+        handle: { type: string }
+        org: { type: string }
+        note: { type: string }
+        search_url: { type: string, format: uri, description: 抖音站内搜索入口，可空 }

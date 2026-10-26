@@ -1,0 +1,542 @@
+{
+ "started_at": "2026-10-26T19:45:42",
+ "sources": [
+  {
+   "id": "www",
+   "name": "中国社会科学院大学",
+   "listings": [
+    {
+     "url": "https://www.ucass.edu.cn/index/xsdt.htm",
+     "section": "学术动态",
+     "pages": 0,
+     "items": 0,
+     "kept": 0,
+     "error": "fetch_failed"
+    },
+    {
+     "url": "https://www.ucass.edu.cn/index/tzgg.htm",
+     "section": "通知公告",
+     "pages": 0,
+     "items": 0,
+     "kept": 0,
+     "error": "fetch_failed"
+    }
+   ],
+   "kept": 0
+  },
+  {
+   "id": "ky",
+   "name": "科研处",
+   "listings": [
+    {
+     "url": "https://ky.ucass.edu.cn/xwdt.htm",
+     "section": "新闻动态",
+     "mode": "filter",
+     "pages": 3,
+     "items": 34,
+     "kept": 18
+    },
+    {
+     "url": "https://ky.ucass.edu.cn/tzgg.htm",
+     "section": "通知公告",
+     "mode": "filter",
+     "pages": 3,
+     "items": 39,
+     "kept": 0
+    }
+   ],
+   "kept": 18
+  },
+  {
+   "id": "sg",
+   "name": "政府管理学院",
+   "listings": [
+    {
+     "url": "https://sg.ucass.edu.cn/index/ygtz.htm",
+     "section": "预告通知",
+     "mode": "all",
+     "pages": 16,
+     "items": 157,
+     "kept": 123
+    },
+    {
+     "url": "https://sg.ucass.edu.cn/jxgl/jzxx.htm",
+     "section": "讲座信息",
+     "mode": "all",
+     "pages": 12,
+     "items": 120,
+     "kept": 120
+    },
+    {
+     "url": "https://sg.ucass.edu.cn/fb/xshd1.htm",
+     "section": "学术活动",
+     "mode": "filter",
+     "pages": 1,
+     "items": 0,
+     "kept": 0
+    }
+   ],
+   "kept": 243
+  },
+  {
+   "id": "law",
+   "name": "法学院",
+   "listings": [
+    {
+     "url": "https://law.ucass.edu.cn/xwzhong_xin/hdyg.htm",
+     "section": "活动预告",
+     "mode": "all",
+     "pages": 24,
+     "items": 236,
+     "kept": 235
+    },
+    {
+     "url": "https://law.ucass.edu.cn/xsky/xshd.htm",
+     "section": "学术活动",
+     "mode": "filter",
+     "pages": 8,
+     "items": 77,
+     "kept": 44
+    }
+   ],
+   "kept": 279
+  },
+  {
+   "id": "phil",
+   "name": "哲学院",
+   "listings": [
+    {
+     "url": "https://phil.ucass.edu.cn/xwtz/hyjz1.htm",
+     "section": "会议讲座",
+     "mode": "all",
+     "pages": 7,
+     "items": 63,
+     "kept": 63
+    }
+   ],
+   "kept": 63
+  },
+  {
+   "id": "history",
+   "name": "历史学院",
+   "listings": [
+    {
+     "url": "https://history.ucass.edu.cn/xsyj/xshd1.htm",
+     "section": "学术活动",
+     "mode": "all",
+     "pages": 20,
+     "items": 197,
+     "kept": 197
+    },
+    {
+     "url": "https://history.ucass.edu.cn/xsyj/qnsxlt.htm",
+     "section": "青年史学论坛",
+     "mode": "filter",
+     "pages": 1,
+     "items": 10,
+     "kept": 2
+    }
+   ],
+   "kept": 199
+  },
+  {
+   "id": "bs",
+   "name": "商学院",
+   "listings": [
+    {
+     "url": "https://bs.ucass.edu.cn/xsky/xueshuj.htm",
+     "section": "学术讲座",
+     "mode": "all",
+     "pages": 6,
+     "items": 73,
+     "kept": 73
+    },
+    {
+     "url": "https://bs.ucass.edu.cn/xsky/xshd.htm",
+     "section": "学术活动",
+     "mode": "filter",
+     "pages": 8,
+     "items": 23,
+     "kept": 13
+    }
+   ],
+   "kept": 86
+  },
+  {
+   "id": "se",
+   "name": "经济学院",
+   "listings": [
+    {
+     "url": "https://se.ucass.edu.cn/xshd/xue_shult.htm",
+     "section": "学术论坛",
+     "mode": "all",
+     "pages": 3,
+     "items": 20,
+     "kept": 19
+    },
+    {
+     "url": "https://se.ucass.edu.cn/xshd/skjy.htm",
+     "section": "社科经苑",
+     "mode": "filter",
+     "pages": 8,
+     "items": 4,
+     "kept": 0
+    },
+    {
+     "url": "https://se.ucass.edu.cn/xwdt.htm",
+     "section": "新闻动态",
+     "mode": "filter",
+     "pages": 8,
+     "items": 47,
+     "kept": 6
+    }
+   ],
+   "kept": 25
+  },
+  {
+   "id": "fae",
+   "name": "应用经济学院",
+   "listings": [
+    {
+     "url": "https://fae.ucass.edu.cn/xsky/qlxzgzf.htm",
+     "section": "青蓝学者工作坊",
+     "mode": "all",
+     "pages": 4,
+     "items": 7,
+     "kept": 7
+    },
+    {
+     "url": "https://fae.ucass.edu.cn/xsky/xshd.htm",
+     "section": "学术活动",
+     "mode": "filter",
+     "pages": 6,
+     "items": 52,
+     "kept": 23
+    }
+   ],
+   "kept": 30
+  },
+  {
+   "id": "shymzxy",
+   "name": "社会与民族学院",
+   "listings": [
+    {
+     "url": "https://shymzxy.ucass.edu.cn/xwzx/tzgg1.htm",
+     "section": "通知公告",
+     "mode": "filter",
+     "pages": 13,
+     "items": 122,
+     "kept": 82
+    },
+    {
+     "url": "https://shymzxy.ucass.edu.cn/sxkc/MSWsxsj/swjz.htm",
+     "section": "实务讲座",
+     "mode": "all",
+     "pages": 5,
+     "items": 9,
+     "kept": 9
+    },
+    {
+     "url": "https://shymzxy.ucass.edu.cn/xstd/xsdt.htm",
+     "section": "学术动态",
+     "mode": "filter",
+     "pages": 6,
+     "items": 52,
+     "kept": 12
+    }
+   ],
+   "kept": 103
+  },
+  {
+   "id": "media",
+   "name": "新闻传播学院",
+   "listings": [
+    {
+     "url": "https://media.ucass.edu.cn/xsky/xsdt.htm",
+     "section": "学术动态",
+     "mode": "filter",
+     "pages": 4,
+     "items": 49,
+     "kept": 27
+    }
+   ],
+   "kept": 27
+  },
+  {
+   "id": "sfl",
+   "name": "外国语学院",
+   "listings": [
+    {
+     "url": "https://sfl.ucass.edu.cn/kyxx1/xsdt.htm",
+     "section": "学术动态",
+     "mode": "filter",
+     "pages": 2,
+     "items": 17,
+     "kept": 12
+    }
+   ],
+   "kept": 12
+  },
+  {
+   "id": "marxism",
+   "name": "马克思主义学院",
+   "listings": [
+    {
+     "url": "https://marxism.ucass.edu.cn/tzgg/jztz.htm",
+     "section": "讲座通知",
+     "mode": "all",
+     "pages": 4,
+     "items": 34,
+     "kept": 34
+    },
+    {
+     "url": "https://marxism.ucass.edu.cn/kxyj1/xshd.htm",
+     "section": "学术活动",
+     "mode": "filter",
+     "pages": 6,
+     "items": 54,
+     "kept": 31
+    }
+   ],
+   "kept": 65
+  },
+  {
+   "id": "wenxue",
+   "name": "文学院",
+   "listings": [
+    {
+     "url": "https://wenxue.ucass.edu.cn/mygz/myjz.htm",
+     "section": "美育讲座",
+     "mode": "all",
+     "pages": 3,
+     "items": 12,
+     "kept": 12
+    },
+    {
+     "url": "https://wenxue.ucass.edu.cn/xsyj/xsjl.htm",
+     "section": "学术交流",
+     "mode": "filter",
+     "pages": 5,
+     "items": 18,
+     "kept": 10
+    }
+   ],
+   "kept": 22
+  },
+  {
+   "id": "sipe",
+   "name": "全球与区域国别学院",
+   "listings": [
+    {
+     "url": "https://sipe.ucass.edu.cn/kygz/kydt.htm",
+     "section": "科研动态",
+     "mode": "filter",
+     "pages": 3,
+     "items": 24,
+     "kept": 18
+    },
+    {
+     "url": "https://sipe.ucass.edu.cn/xwzx/xwdt.htm",
+     "section": "新闻动态",
+     "mode": "filter",
+     "pages": 3,
+     "items": 22,
+     "kept": 8
+    }
+   ],
+   "kept": 26
+  },
+  {
+   "id": "sged",
+   "name": "国际教育学院",
+   "listings": [
+    {
+     "url": "https://sged.ucass.edu.cn/xsky/xshd.htm",
+     "section": "学术活动",
+     "mode": "filter",
+     "pages": 5,
+     "items": 18,
+     "kept": 14
+    },
+    {
+     "url": "https://sged.ucass.edu.cn/xwgg/xwdt.htm",
+     "section": "新闻动态",
+     "mode": "filter",
+     "pages": 5,
+     "items": 61,
+     "kept": 5
+    }
+   ],
+   "kept": 19
+  },
+  {
+   "id": "intl",
+   "name": "国际交流与合作处",
+   "listings": [
+    {
+     "url": "https://intl.ucass.edu.cn/swhy.htm",
+     "section": "涉外会议",
+     "mode": "all",
+     "pages": 3,
+     "items": 5,
+     "kept": 5
+    },
+    {
+     "url": "https://intl.ucass.edu.cn/xwsd1.htm",
+     "section": "新闻速递",
+     "mode": "filter",
+     "pages": 4,
+     "items": 55,
+     "kept": 12
+    }
+   ],
+   "kept": 17
+  },
+  {
+   "id": "youth",
+   "name": "校团委",
+   "listings": [
+    {
+     "url": "https://youth.ucass.edu.cn/tzgg.htm",
+     "section": "通知公告",
+     "mode": "filter",
+     "pages": 3,
+     "items": 41,
+     "kept": 0
+    }
+   ],
+   "kept": 0
+  }
+ ],
+ "errors": [
+  {
+   "url": "https://www.ucass.edu.cn/index/xsdt.htm",
+   "error": "fetch_failed"
+  },
+  {
+   "url": "https://www.ucass.edu.cn/index/tzgg.htm",
+   "error": "fetch_failed"
+  },
+  {
+   "url": "https://bs.ucass.edu.cn/xsky/xueshuj/5.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://bs.ucass.edu.cn/xsky/xshd/7.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://bs.ucass.edu.cn/xsky/xshd/6.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://bs.ucass.edu.cn/xsky/xshd/5.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://bs.ucass.edu.cn/xsky/xshd/4.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://bs.ucass.edu.cn/xsky/xshd/3.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://bs.ucass.edu.cn/xsky/xshd/2.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://se.ucass.edu.cn/xshd/skjy/7.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://se.ucass.edu.cn/xshd/skjy/6.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://se.ucass.edu.cn/xshd/skjy/5.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://se.ucass.edu.cn/xshd/skjy/4.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://se.ucass.edu.cn/xshd/skjy/3.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://se.ucass.edu.cn/xshd/skjy/2.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://se.ucass.edu.cn/xshd/skjy/1.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://fae.ucass.edu.cn/xsky/qlxzgzf/3.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://fae.ucass.edu.cn/xsky/qlxzgzf/2.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://fae.ucass.edu.cn/xsky/qlxzgzf/1.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://shymzxy.ucass.edu.cn/sxkc/MSWsxsj/swjz/4.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://shymzxy.ucass.edu.cn/sxkc/MSWsxsj/swjz/3.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://shymzxy.ucass.edu.cn/sxkc/MSWsxsj/swjz/2.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://shymzxy.ucass.edu.cn/sxkc/MSWsxsj/swjz/1.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://wenxue.ucass.edu.cn/mygz/myjz/2.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://wenxue.ucass.edu.cn/mygz/myjz/1.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://wenxue.ucass.edu.cn/xsyj/xsjl/4.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://wenxue.ucass.edu.cn/xsyj/xsjl/3.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://wenxue.ucass.edu.cn/xsyj/xsjl/2.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://intl.ucass.edu.cn/swhy/2.htm",
+   "error": "page_fetch_failed"
+  },
+  {
+   "url": "https://intl.ucass.edu.cn/swhy/1.htm",
+   "error": "page_fetch_failed"
+  }
+ ],
+ "finished_at": "2026-10-26T19:48:13",
+ "total": 1189,
+ "campus_counts": {
+  "良乡校区": 153,
+  "望京校区": 75,
+  "未注明": 741,
+  "校外": 15,
+  "线上": 205
+ }
+}
