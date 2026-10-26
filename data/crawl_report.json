@@ -1,5 +1,5 @@
 {
- "started_at": "2026-10-26T19:45:42",
+ "started_at": "2026-10-26T13:25:18",
  "sources": [
   {
    "id": "www",
@@ -8,18 +8,18 @@
     {
      "url": "https://www.ucass.edu.cn/index/xsdt.htm",
      "section": "学术动态",
-     "pages": 0,
+     "mode": "filter",
+     "pages": 1,
      "items": 0,
-     "kept": 0,
-     "error": "fetch_failed"
+     "kept": 0
     },
     {
      "url": "https://www.ucass.edu.cn/index/tzgg.htm",
      "section": "通知公告",
-     "pages": 0,
+     "mode": "filter",
+     "pages": 1,
      "items": 0,
-     "kept": 0,
-     "error": "fetch_failed"
+     "kept": 0
     }
    ],
    "kept": 0
@@ -110,11 +110,11 @@
      "section": "会议讲座",
      "mode": "all",
      "pages": 7,
-     "items": 63,
-     "kept": 63
+     "items": 64,
+     "kept": 64
     }
    ],
-   "kept": 63
+   "kept": 64
   },
   {
    "id": "history",
@@ -410,14 +410,6 @@
  ],
  "errors": [
   {
-   "url": "https://www.ucass.edu.cn/index/xsdt.htm",
-   "error": "fetch_failed"
-  },
-  {
-   "url": "https://www.ucass.edu.cn/index/tzgg.htm",
-   "error": "fetch_failed"
-  },
-  {
    "url": "https://bs.ucass.edu.cn/xsky/xueshuj/5.htm",
    "error": "page_fetch_failed"
   },
@@ -530,13 +522,13 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-10-26T19:48:13",
- "total": 1189,
+ "finished_at": "2026-10-26T13:44:01",
+ "total": 1190,
  "campus_counts": {
-  "良乡校区": 153,
+  "良乡校区": 154,
   "望京校区": 75,
-  "未注明": 741,
+  "未注明": 740,
   "校外": 15,
-  "线上": 205
+  "线上": 206
  }
 }
