@@ -13,6 +13,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  administration: write
 
 concurrency:
   group: crawl-and-deploy
@@ -61,6 +62,8 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
