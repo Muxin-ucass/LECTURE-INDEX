@@ -1,5 +1,5 @@
 {
- "started_at": "2026-10-26T23:54:01",
+ "started_at": "2026-10-27T12:03:31",
  "sources": [
   {
    "id": "www",
@@ -41,7 +41,7 @@
      "section": "通知公告",
      "mode": "filter",
      "pages": 3,
-     "items": 39,
+     "items": 38,
      "kept": 0
     }
    ],
@@ -148,8 +148,8 @@
      "section": "学术讲座",
      "mode": "all",
      "pages": 6,
-     "items": 73,
-     "kept": 73
+     "items": 74,
+     "kept": 74
     },
     {
      "url": "https://bs.ucass.edu.cn/xsky/xshd.htm",
@@ -160,7 +160,7 @@
      "kept": 13
     }
    ],
-   "kept": 86
+   "kept": 87
   },
   {
    "id": "se",
@@ -522,12 +522,12 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-10-27T00:08:22",
- "total": 1190,
+ "finished_at": "2026-10-27T12:22:53",
+ "total": 1191,
  "campus_counts": {
-  "良乡校区": 153,
+  "良乡校区": 155,
   "望京校区": 75,
-  "未注明": 741,
+  "未注明": 740,
   "校外": 15,
   "线上": 206
  }
