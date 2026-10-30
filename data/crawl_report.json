@@ -1,5 +1,5 @@
 {
- "started_at": "2026-10-29T23:58:33",
+ "started_at": "2026-10-30T12:09:10",
  "sources": [
   {
    "id": "www",
@@ -522,7 +522,7 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-10-30T00:10:59",
+ "finished_at": "2026-10-30T12:28:57",
  "total": 1192,
  "campus_counts": {
   "良乡校区": 155,
