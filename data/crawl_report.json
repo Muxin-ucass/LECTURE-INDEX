@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-01T23:56:11",
+ "started_at": "2026-11-02T12:20:42",
  "sources": [
   {
    "id": "www",
@@ -156,11 +156,11 @@
      "section": "学术活动",
      "mode": "filter",
      "pages": 8,
-     "items": 23,
-     "kept": 13
+     "items": 24,
+     "kept": 14
     }
    ],
-   "kept": 87
+   "kept": 88
   },
   {
    "id": "se",
@@ -355,19 +355,19 @@
      "section": "学术活动",
      "mode": "filter",
      "pages": 5,
-     "items": 18,
-     "kept": 14
+     "items": 19,
+     "kept": 15
     },
     {
      "url": "https://sged.ucass.edu.cn/xwgg/xwdt.htm",
      "section": "新闻动态",
      "mode": "filter",
      "pages": 5,
-     "items": 61,
-     "kept": 5
+     "items": 64,
+     "kept": 7
     }
    ],
-   "kept": 19
+   "kept": 22
   },
   {
    "id": "intl",
@@ -386,7 +386,7 @@
      "section": "新闻速递",
      "mode": "filter",
      "pages": 4,
-     "items": 57,
+     "items": 58,
      "kept": 13
     }
    ],
@@ -522,13 +522,13 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-02T00:10:15",
- "total": 1192,
+ "finished_at": "2026-11-02T12:39:09",
+ "total": 1195,
  "campus_counts": {
-  "良乡校区": 154,
+  "良乡校区": 156,
+  "未注明": 742,
+  "线上": 207,
   "望京校区": 76,
-  "未注明": 741,
-  "校外": 14,
-  "线上": 207
+  "校外": 14
  }
 }
