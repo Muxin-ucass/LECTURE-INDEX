@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-05T00:00:07",
+ "started_at": "2026-11-05T12:22:03",
  "sources": [
   {
    "id": "www",
@@ -241,7 +241,7 @@
      "section": "学术动态",
      "mode": "filter",
      "pages": 6,
-     "items": 52,
+     "items": 53,
      "kept": 12
     }
    ],
@@ -363,7 +363,7 @@
      "section": "新闻动态",
      "mode": "filter",
      "pages": 5,
-     "items": 64,
+     "items": 65,
      "kept": 7
     }
    ],
@@ -522,7 +522,7 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-05T00:12:42",
+ "finished_at": "2026-11-05T12:43:08",
  "total": 1194,
  "campus_counts": {
   "未注明": 743,
