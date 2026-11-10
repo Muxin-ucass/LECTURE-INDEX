@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-09T23:59:24",
+ "started_at": "2026-11-10T12:16:30",
  "sources": [
   {
    "id": "www",
@@ -148,19 +148,19 @@
      "section": "学术讲座",
      "mode": "all",
      "pages": 6,
-     "items": 75,
-     "kept": 75
+     "items": 76,
+     "kept": 76
     },
     {
      "url": "https://bs.ucass.edu.cn/xsky/xshd.htm",
      "section": "学术活动",
      "mode": "filter",
      "pages": 8,
-     "items": 24,
+     "items": 25,
      "kept": 14
     }
    ],
-   "kept": 89
+   "kept": 90
   },
   {
    "id": "se",
@@ -410,10 +410,6 @@
  ],
  "errors": [
   {
-   "url": "https://bs.ucass.edu.cn/xsky/xueshuj/5.htm",
-   "error": "page_fetch_failed"
-  },
-  {
    "url": "https://bs.ucass.edu.cn/xsky/xshd/7.htm",
    "error": "page_fetch_failed"
   },
@@ -522,13 +518,13 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-10T00:13:59",
- "total": 1196,
+ "finished_at": "2026-11-10T12:35:07",
+ "total": 1198,
  "campus_counts": {
   "未注明": 744,
+  "良乡校区": 158,
   "望京校区": 77,
-  "良乡校区": 157,
-  "线上": 204,
+  "线上": 205,
   "校外": 14
  }
 }
