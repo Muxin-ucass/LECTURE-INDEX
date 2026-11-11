@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-10T23:57:19",
+ "started_at": "2026-11-11T12:23:20",
  "sources": [
   {
    "id": "www",
@@ -41,7 +41,7 @@
      "section": "通知公告",
      "mode": "filter",
      "pages": 3,
-     "items": 38,
+     "items": 6,
      "kept": 0
     }
    ],
@@ -95,11 +95,11 @@
      "section": "学术活动",
      "mode": "filter",
      "pages": 8,
-     "items": 72,
-     "kept": 39
+     "items": 73,
+     "kept": 40
     }
    ],
-   "kept": 274
+   "kept": 275
   },
   {
    "id": "phil",
@@ -148,8 +148,8 @@
      "section": "学术讲座",
      "mode": "all",
      "pages": 6,
-     "items": 76,
-     "kept": 76
+     "items": 77,
+     "kept": 77
     },
     {
      "url": "https://bs.ucass.edu.cn/xsky/xshd.htm",
@@ -160,7 +160,7 @@
      "kept": 14
     }
    ],
-   "kept": 90
+   "kept": 91
   },
   {
    "id": "se",
@@ -233,19 +233,19 @@
      "section": "实务讲座",
      "mode": "all",
      "pages": 5,
-     "items": 9,
-     "kept": 9
+     "items": 10,
+     "kept": 10
     },
     {
      "url": "https://shymzxy.ucass.edu.cn/xstd/xsdt.htm",
      "section": "学术动态",
      "mode": "filter",
      "pages": 6,
-     "items": 53,
+     "items": 54,
      "kept": 12
     }
    ],
-   "kept": 104
+   "kept": 105
   },
   {
    "id": "media",
@@ -518,13 +518,13 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-11T00:10:20",
- "total": 1198,
+ "finished_at": "2026-11-11T12:44:55",
+ "total": 1201,
  "campus_counts": {
-  "未注明": 746,
-  "良乡校区": 157,
-  "望京校区": 77,
-  "线上": 204,
-  "校外": 14
+  "线上": 205,
+  "未注明": 747,
+  "良乡校区": 156,
+  "望京校区": 78,
+  "校外": 15
  }
 }
