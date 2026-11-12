@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-12T00:09:35",
+ "started_at": "2026-11-12T12:22:43",
  "sources": [
   {
    "id": "www",
@@ -9,20 +9,20 @@
      "url": "https://www.ucass.edu.cn/index/xsdt.htm",
      "section": "学术动态",
      "mode": "filter",
-     "pages": 1,
-     "items": 0,
-     "kept": 0
+     "pages": 9,
+     "items": 79,
+     "kept": 40
     },
     {
      "url": "https://www.ucass.edu.cn/index/tzgg.htm",
      "section": "通知公告",
      "mode": "filter",
-     "pages": 1,
-     "items": 0,
-     "kept": 0
+     "pages": 24,
+     "items": 213,
+     "kept": 2
     }
    ],
-   "kept": 0
+   "kept": 42
   },
   {
    "id": "ky",
@@ -518,13 +518,13 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-12T00:26:48",
- "total": 1201,
+ "finished_at": "2026-11-12T12:48:11",
+ "total": 1228,
  "campus_counts": {
   "线上": 205,
-  "未注明": 748,
-  "良乡校区": 155,
+  "未注明": 761,
+  "良乡校区": 168,
   "望京校区": 78,
-  "校外": 15
+  "校外": 16
  }
 }
