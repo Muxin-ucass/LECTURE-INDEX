@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-13T00:05:49",
+ "started_at": "2026-11-13T12:22:51",
  "sources": [
   {
    "id": "www",
@@ -8,21 +8,21 @@
     {
      "url": "https://www.ucass.edu.cn/index/xsdt.htm",
      "section": "学术动态",
-     "mode": "filter",
-     "pages": 9,
-     "items": 79,
-     "kept": 40
+     "pages": 0,
+     "items": 0,
+     "kept": 0,
+     "error": "fetch_failed"
     },
     {
      "url": "https://www.ucass.edu.cn/index/tzgg.htm",
      "section": "通知公告",
-     "mode": "filter",
-     "pages": 24,
-     "items": 213,
-     "kept": 2
+     "pages": 0,
+     "items": 0,
+     "kept": 0,
+     "error": "fetch_failed"
     }
    ],
-   "kept": 42
+   "kept": 0
   },
   {
    "id": "ky",
@@ -87,8 +87,8 @@
      "section": "活动预告",
      "mode": "all",
      "pages": 24,
-     "items": 236,
-     "kept": 235
+     "items": 237,
+     "kept": 236
     },
     {
      "url": "https://law.ucass.edu.cn/xsky/xshd.htm",
@@ -99,7 +99,7 @@
      "kept": 40
     }
    ],
-   "kept": 275
+   "kept": 276
   },
   {
    "id": "phil",
@@ -410,6 +410,14 @@
  ],
  "errors": [
   {
+   "url": "https://www.ucass.edu.cn/index/xsdt.htm",
+   "error": "fetch_failed"
+  },
+  {
+   "url": "https://www.ucass.edu.cn/index/tzgg.htm",
+   "error": "fetch_failed"
+  },
+  {
    "url": "https://bs.ucass.edu.cn/xsky/xshd/7.htm",
    "error": "page_fetch_failed"
   },
@@ -518,13 +526,13 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-13T00:25:16",
- "total": 1228,
+ "finished_at": "2026-11-13T12:43:18",
+ "total": 1202,
  "campus_counts": {
-  "线上": 206,
-  "未注明": 760,
-  "良乡校区": 168,
-  "望京校区": 78,
-  "校外": 16
+  "望京校区": 79,
+  "线上": 205,
+  "未注明": 747,
+  "良乡校区": 156,
+  "校外": 15
  }
 }
