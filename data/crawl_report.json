@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-16T00:04:49",
+ "started_at": "2026-11-16T13:08:02",
  "sources": [
   {
    "id": "www",
@@ -225,8 +225,8 @@
      "section": "通知公告",
      "mode": "filter",
      "pages": 13,
-     "items": 123,
-     "kept": 83
+     "items": 124,
+     "kept": 84
     },
     {
      "url": "https://shymzxy.ucass.edu.cn/sxkc/MSWsxsj/swjz.htm",
@@ -245,7 +245,7 @@
      "kept": 12
     }
    ],
-   "kept": 105
+   "kept": 106
   },
   {
    "id": "media",
@@ -518,13 +518,13 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-16T00:26:31",
- "total": 1229,
+ "finished_at": "2026-11-16T13:34:03",
+ "total": 1230,
  "campus_counts": {
   "望京校区": 79,
-  "线上": 206,
-  "未注明": 759,
-  "良乡校区": 169,
+  "线上": 207,
+  "未注明": 760,
+  "良乡校区": 168,
   "校外": 16
  }
 }
