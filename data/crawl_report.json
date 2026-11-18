@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-17T12:18:45",
+ "started_at": "2026-11-18T00:12:58",
  "sources": [
   {
    "id": "www",
@@ -56,8 +56,8 @@
      "section": "预告通知",
      "mode": "all",
      "pages": 16,
-     "items": 157,
-     "kept": 123
+     "items": 159,
+     "kept": 125
     },
     {
      "url": "https://sg.ucass.edu.cn/jxgl/jzxx.htm",
@@ -76,7 +76,7 @@
      "kept": 0
     }
    ],
-   "kept": 243
+   "kept": 245
   },
   {
    "id": "law",
@@ -518,13 +518,13 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-17T12:44:53",
- "total": 1231,
+ "finished_at": "2026-11-18T00:34:29",
+ "total": 1233,
  "campus_counts": {
-  "望京校区": 80,
+  "望京校区": 81,
   "线上": 207,
-  "未注明": 761,
-  "良乡校区": 167,
+  "良乡校区": 169,
+  "未注明": 760,
   "校外": 16
  }
 }
