@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-20T00:07:15",
+ "started_at": "2026-11-20T12:24:02",
  "sources": [
   {
    "id": "www",
@@ -95,11 +95,11 @@
      "section": "学术活动",
      "mode": "filter",
      "pages": 8,
-     "items": 73,
-     "kept": 40
+     "items": 74,
+     "kept": 42
     }
    ],
-   "kept": 276
+   "kept": 278
   },
   {
    "id": "phil",
@@ -518,13 +518,13 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-20T00:17:47",
- "total": 1239,
+ "finished_at": "2026-11-20T12:41:36",
+ "total": 1241,
  "campus_counts": {
+  "未注明": 764,
   "望京校区": 81,
-  "线上": 207,
+  "线上": 208,
   "良乡校区": 172,
-  "未注明": 763,
   "校外": 16
  }
 }
