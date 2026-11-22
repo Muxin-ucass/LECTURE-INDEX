@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-21T12:11:21",
+ "started_at": "2026-11-22T00:00:19",
  "sources": [
   {
    "id": "www",
@@ -518,7 +518,7 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-21T12:27:20",
+ "finished_at": "2026-11-22T00:19:42",
  "total": 1241,
  "campus_counts": {
   "未注明": 764,
