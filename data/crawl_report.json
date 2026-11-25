@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-25T00:10:46",
+ "started_at": "2026-11-25T12:31:37",
  "sources": [
   {
    "id": "www",
@@ -187,11 +187,11 @@
      "section": "新闻动态",
      "mode": "filter",
      "pages": 8,
-     "items": 48,
-     "kept": 8
+     "items": 44,
+     "kept": 5
     }
    ],
-   "kept": 29
+   "kept": 26
   },
   {
    "id": "fae",
@@ -518,13 +518,13 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-25T00:21:30",
- "total": 1243,
+ "finished_at": "2026-11-25T12:49:04",
+ "total": 1240,
  "campus_counts": {
   "良乡校区": 172,
   "望京校区": 82,
-  "未注明": 765,
-  "线上": 208,
+  "未注明": 763,
+  "线上": 207,
   "校外": 16
  }
 }
