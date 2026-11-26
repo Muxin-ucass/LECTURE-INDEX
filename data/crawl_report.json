@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-26T00:13:16",
+ "started_at": "2026-11-26T12:29:38",
  "sources": [
   {
    "id": "www",
@@ -241,11 +241,11 @@
      "section": "学术动态",
      "mode": "filter",
      "pages": 6,
-     "items": 55,
-     "kept": 12
+     "items": 56,
+     "kept": 13
     }
    ],
-   "kept": 106
+   "kept": 107
   },
   {
    "id": "media",
@@ -518,12 +518,12 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-26T00:24:40",
- "total": 1240,
+ "finished_at": "2026-11-26T12:49:50",
+ "total": 1241,
  "campus_counts": {
   "良乡校区": 172,
   "望京校区": 82,
-  "未注明": 763,
+  "未注明": 764,
   "线上": 207,
   "校外": 16
  }
