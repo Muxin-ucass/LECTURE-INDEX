@@ -1,5 +1,5 @@
 {
- "started_at": "2026-11-27T20:09:52",
+ "started_at": "2026-11-28T04:49:02",
  "sources": [
   {
    "id": "www",
@@ -95,7 +95,7 @@
      "section": "学术活动",
      "mode": "filter",
      "pages": 8,
-     "items": 74,
+     "items": 75,
      "kept": 42
     }
    ],
@@ -110,11 +110,11 @@
      "section": "会议讲座",
      "mode": "all",
      "pages": 7,
-     "items": 65,
-     "kept": 65
+     "items": 69,
+     "kept": 69
     }
    ],
-   "kept": 65
+   "kept": 69
   },
   {
    "id": "history",
@@ -518,12 +518,12 @@
    "error": "page_fetch_failed"
   }
  ],
- "finished_at": "2026-11-27T20:20:30",
- "total": 1242,
+ "finished_at": "2026-11-28T05:06:44",
+ "total": 1245,
  "campus_counts": {
-  "良乡校区": 173,
+  "良乡校区": 175,
   "望京校区": 82,
-  "未注明": 764,
+  "未注明": 765,
   "线上": 207,
   "校外": 16
  }
